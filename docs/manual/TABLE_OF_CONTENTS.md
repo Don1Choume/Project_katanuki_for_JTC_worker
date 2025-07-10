@@ -13,12 +13,16 @@
 -   **[Prefect マニュアル](tools/prefect_manual.md)**
     -   `Prefect`のインストール、基本概念（フロー、タスク）、フローの定義と実行、デプロイ方法について説明します。
 -   **[Pytest マニュアル](tools/pytest_manual.md)**
-    -   `pytest`のインストール、テストの実行方法、テストのコーディング方法（関数、クラス、フィクスチャ、パラメータ化）について説明します。
+    -   `pytest`のインストール方法、テストの実行方法、テストのコーディング方法（関数、クラス、フィクスチャ、パラメータ化）について説明します。
+-   **[Ruff & uv マニュアル](tools/ruff_uv_manual.md)**
+    -   `ruff`と`uv`の連携、設定、基本的な使用方法について説明します。
 
 ## 2. 方法論関連マニュアル
 
 プロジェクトの開発プロセスやベストプラクティスに関するマニュアルです。
 
+-   **[Python 型アノテーションと Pydantic 活用マニュアル](methodologies/python_typing_pydantic_manual.md)**
+    -   Pythonにおける型アノテーション（Type Annotation）の基本と、データバリデーションライブラリであるPydanticの活用方法について解説します。
 -   **[プロジェクト開始とフォルダ活用マニュアル](methodologies/getting_started_manual.md)**
     -   プロジェクトの初期セットアップ、フォルダ構造と各フォルダの活用方法、`analysis_lib`の概要について説明します。
 -   **[Git-flow マニュアル](methodologies/git_flow_manual.md)**
@@ -34,6 +38,8 @@
 
 `analysis_lib`内の各モジュールや関数の詳細な説明と使用例です。
 
+-   **[Python 型アノテーションと Pydantic 活用マニュアル](library_docs/python_typing_pydantic_manual.md)**
+    -   Pythonにおける型アノテーション（Type Annotation）の基本と、データバリデーションライブラリであるPydanticの活用方法について解説します。
 -   **[audio パッケージ](library_docs/audio_doc.md)**
     -   音声信号からの特徴量抽出 (`extract_features`) について説明します。
 -   **[database パッケージ](library_docs/database_doc.md)**
